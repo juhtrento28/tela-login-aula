@@ -1,7 +1,7 @@
 const from = document.getElementById('form');
 const email_input = document.getElementById('email-input');
 const password_input = document.getElementById('password-input');
-const error_mensage = document.getElementById('error-mensage');
+const error_mensage = document.getElementById('error-message');
 
 from.addEventListener('submit', (e) => {
     e.preventDefault();
